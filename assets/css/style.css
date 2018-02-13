@@ -81,6 +81,7 @@
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #666666;
     line-height: 1.6;
+    margin-bottom: 20px;
 }
 .right-column {
     width: 220px;
@@ -205,13 +206,17 @@ input[type=submit]{
 .over-label {
     background: teal;
     position: absolute;
-    bottom: 80px;
+    bottom: 40px;
     width: 100%;
+    height: 45px;
     opacity: .9;
     color: white;
     padding: 10px 0px;
-    text-align: center;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 

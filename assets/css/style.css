@@ -161,11 +161,11 @@ textarea{
     margin: 8px 0;
     display: inline-block;
     border: 1px solid #ccc;
-    overflow: auto;
     box-sizing: border-box;
     font-size: medium;
     color: #666666;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    resize: vertical;
 }
 
 input[type=submit]{
